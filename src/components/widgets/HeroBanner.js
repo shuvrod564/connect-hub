@@ -14,7 +14,7 @@ const HomeBanner = () => {
       <div className="container">
         <div className="text-center"> 
           <div className="inline-block px-3 py-2 rounded-md bg-secondary text-white">Over 1,50,000 Active Business</div>
-          <h1 className={`${lexend.className} text-3xl md:text-4xl lg:text-5xl font-semibold mt-5 mb-4 text-white`}>Australia's Largest Marketplace</h1>
+          <h1 className={`${lexend.className} text-3xl md:text-4xl lg:text-5xl font-semibold mt-5 mb-4 text-white`}>Australia&apos;s Largest Marketplace</h1>
           <p className={`${lexend.className} text-lg md:text-xl lg:text-2xl text-white mb-8`}>Search from over 10,000 products & services</p>
           <Search />
         </div>

@@ -58,18 +58,18 @@ export function Filter() {
     return (
         <div className="flex flex-col gap-4 md:gap-5">
             {
-                data.map((item)=>{
+                data.map((item, index)=>{
                     return ( 
-                        <div className="rounded-lg border border-border-color">
+                        <div key={index} className="rounded-lg border border-border-color">
                             <div className="px-5 py-3 border-b border-border-color">
                                 <h3 className="text-sm sm:text-base font-bold text-[#40445A]">{item.name}</h3>
                             </div>
                             <div className="px-4 md:px-5 pb-5 pt-3">
                                 <ul className="leading-[225%]">
                                     {
-                                        item.category.map((cate)=> {
+                                        item.category.map((cate, index)=> {
                                             return (
-                                                <li key={cate.key}>
+                                                <li key={index}>
                                                     <Link href={"#"} className="text-[#40445A] hover:text-primary hover:underline">{cate.name}</Link>
                                                 </li>
                                             )

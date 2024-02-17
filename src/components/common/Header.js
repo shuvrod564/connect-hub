@@ -89,7 +89,7 @@ const Header = ({ }) => {
                   <Link
                     href={"/listing"}
                     className={`${
-                      pathname.indexOf("/blog") !== -1
+                      pathname.indexOf("/listing") !== -1
                         ? "text-primary"
                         : "text-dark"
                     } font-sans p-3`}
@@ -99,9 +99,9 @@ const Header = ({ }) => {
                 </li>
                 <li>
                   <Link
-                    href={"/blogs"}
+                    href={"/news"}
                     className={`${
-                      pathname.indexOf("/blog") !== -1
+                      pathname.indexOf("/news") !== -1
                         ? "text-primary"
                         : "text-dark"
                     } font-sans p-3`}

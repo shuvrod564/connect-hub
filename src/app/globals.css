@@ -333,3 +333,6 @@ select {
  
 
 .lead__list .lead__item:not(:last-child) { @apply border-b border-bc }
+
+
+.news__detail h2 { @apply text-xl md:text-2xl lg:text-3xl font-semibold text-dark mt-10 lg:mt-14 mb-3 }

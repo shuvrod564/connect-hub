@@ -44,34 +44,7 @@ export function HotelSearch() {
                                     <option value="Name">Name</option>
                                 </select>
                             </div>
-                            <div className="w-1/2 sm:w-[17%]">
-                                <select name="" id="" className="w-full h-12 bg-white rounded-tr-lg sm:rounded-tr-none sm:border-r border-border-color pr-4 pl-7 bg-[url('/images/icons/star.svg')] bg-no-repeat bg-[center_left_0.5rem] border-b sm:border-b-0">
-                                    <option value="Top Rated" selected>Top Rated</option>
-                                    <option value="Low Rated">Low Rated</option>
-                                </select>
-                            </div>
-                            <div className="w-1/2 sm:w-[17%]">
-                                <select name="" id="" className="w-full h-12 bg-white border-r border-border-color pr-4 pl-9 bg-[url('/images/icons/sheild.svg')] bg-no-repeat bg-[center_left_0.75rem] border-b sm:border-b-0">
-                                    <option value="Verified" selected>Verified</option>
-                                    <option value="Unverified">Unverified</option>
-                                </select>
-                            </div>
-                            <div className="w-1/2 sm:w-[15%]">
-                                <select name="" id="" className="w-full h-12 bg-white sm:border-r border-border-color px-4 bg-[url('/images/icons/caret-down.svg')] bg-no-repeat bg-[center_right_0.625rem] border-b sm:border-b-0">
-                                    <option value="Rating" selected>Rating</option>
-                                    <option value="1 star">1 star</option>
-                                    <option value="2 star">2 star</option>
-                                    <option value="3 star">3 star</option>
-                                    <option value="4 star">4 star</option>
-                                    <option value="5 star">5 star</option>
-                                </select>
-                            </div>
-                            <div className="w-1/2 sm:w-[15%]">
-                                <select name="" id="" className="w-full h-12 bg-white rounded-tl-lg rounded-bl-lg border-r border-border-color pr-4 pl-9 bg-[url('/images/icons/sheild.svg')] bg-no-repeat bg-[center_left_0.75rem]">
-                                    <option value="Trust" selected>Trust</option>
-                                    <option value="Unverified">Unverified</option>
-                                </select>
-                            </div>
+                            
                             <div className="w-1/2 sm:w-[20%] flex">
                                 <button className="px-4 py-2 flex justify-center items-center gap-3 w-full">
                                     <SettingIcon />

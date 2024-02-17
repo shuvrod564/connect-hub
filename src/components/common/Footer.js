@@ -87,18 +87,18 @@ const Footer = async({}) => {
             <p className="text-[#40445A] font-bold text-base sm:text-base md:text-lg lg:text-xl">Quik Links</p>
             <div className="grid grid-cols-2">
               <div>
-                <ul>
+                <ul className="flex flex-col gap-2">
                   <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Home</Link></li>
                   <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">About Us</Link></li>
                   <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">All Business List</Link></li>
-                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">News</Link></li>
+                  <li><Link href={'/news'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">News</Link></li>
                   <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Promote Your Business</Link></li> 
                 </ul>
               </div>
               <div>
-                <ul>
-                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Testimonials</Link></li>
-                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Contact Us</Link></li>
+                <ul className="flex flex-col gap-2">
+                  <li><Link href={'/testimonials'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Testimonials</Link></li>
+                  <li><Link href={'/contact'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Contact Us</Link></li>
                   <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Help & Support</Link></li>
                   <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Terms & Conditions</Link></li>
                   <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Privacy Policy</Link></li> 
@@ -113,7 +113,7 @@ const Footer = async({}) => {
               {
                 Categories.map((item)=>{
                   return <div key={item.key} className="inline-flex items-center">
-                    <Link href={"#"} className="text-[#40445A] hover:text-primary leading-[175%]">{item.name}</Link>
+                    <Link href={"/listing"} className="text-[#40445A] hover:text-primary leading-[175%]">{item.name}</Link>
                     <span className="text-[#40445A] mx-3 leading-[175%]">|</span>
                   </div>
                 })

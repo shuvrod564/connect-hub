@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs";
 const BlogItemCard = ({ blog }) => {    
   return (
     <div className="blog__card p-2 sm:p-3 md:p-4 lg:p-5 rounded-lg">
-        <Link href={`#`} className="block rounded-lg">
+        <Link href={`/news/detail`} className="block rounded-lg">
             <Image
                 src={blog.thumbnail}
                 alt="Tour Image"
@@ -18,10 +18,10 @@ const BlogItemCard = ({ blog }) => {
         </Link>
         <div className="pt-3 sm:pt-4">
             <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-black hover:text-primary mb-2">
-                <Link href={`#`}>{blog?.title || blog?.title}</Link>
+                <Link href={`/news/detail`}>{blog?.title || blog?.title}</Link>
             </h3>
             <div className="mb-5">
-                <Link href={"#"} className="inline-block px-3 py-1 leading-[1] bg-secondary text-white text-[12px] font-medium rounded-sm hover:bg-primary">
+                <Link href={"/news/detail"} className="inline-block px-3 py-1 leading-[1] bg-secondary text-white text-[12px] font-medium rounded-sm hover:bg-primary">
                     {blog.category}
                 </Link>
             </div>

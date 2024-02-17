@@ -59,7 +59,7 @@ const Header = ({ }) => {
               <Link href={"/"} className="inline-block">
                 <Image
                   src={'/images/logo.png'}
-                  alt="logo"
+                  alt="logo" 
                   width={80}
                   height={68} 
                 />

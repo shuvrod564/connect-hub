@@ -58,7 +58,7 @@ const Header = ({ }) => {
             <div className="inline-flex items-center"> 
               <Link href={"/"} className="inline-block">
                 <Image
-                  src={'/images/logo.png'}
+                  src={'/images/connect-logo.png'}
                   alt="logo" 
                   width={80}
                   height={68} 

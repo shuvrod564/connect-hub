@@ -66,7 +66,7 @@ const Footer = async({}) => {
           <div className="w-full lg:w-[30%] lg:pr-8">
             <Link href={'/'} className='inline-block'>
               <Image 
-                  src={"/images/logo.png"}
+                  src={"/images/connect-logo.png"}
                   alt='logo'
                   width={104}
                   height={56}

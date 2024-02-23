@@ -13,7 +13,7 @@ export function HotelItemCard({item}) {
             <button className="absolute text-[#CCCCCC] text-2xl top-5 right-5 hover:text-primary transition-all duration-300">
                 <IoHeart />
             </button>
-            <Link href={"#"} className="w-full sm:w-[280px] block rounded-lg overflow-hidden">
+            <Link href={"/listing/detail"} className="w-full sm:w-[280px] block rounded-lg overflow-hidden">
                 <Image 
                     src={item.thumbnail} 
                     alt={item.name} width={280} height={320} 
@@ -23,7 +23,7 @@ export function HotelItemCard({item}) {
             <div className="col sm:pl-5 mt-4 sm:mt-0">
                 <p className="mb-1 small font-medium text-primary">{item.type}</p>
                 <h2>
-                    <Link href={"#"} className="text-dark text-lg font-bold hover:text-primary focus:text-primary hover:underline">{item.name}</Link>
+                    <Link href={"/listing/detail"} className="text-dark text-lg font-bold hover:text-primary focus:text-primary hover:underline">{item.name}</Link>
                 </h2>
                 <div className="flex flex-wrap items-center gap-2 mt-1.5">
                     <span className="px-2 py-1 rounded-lg bg-primary text-white text-[12px] font-medium">{item.rating}</span>

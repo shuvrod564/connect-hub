@@ -1,0 +1,6 @@
+.react__rating span {
+    @apply border border-border-color min-w-[30px] h-[30px] text-center mr-1.5 mb-1.5 inline-flex items-center justify-center text-gray-light
+}
+.react__rating span::before {
+    @apply w-[42%] h-[30px] left-1
+}

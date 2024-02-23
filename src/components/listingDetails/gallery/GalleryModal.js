@@ -12,7 +12,7 @@ import { BsGridFill } from 'react-icons/bs';
 const RightSideInfo = ()=>{
     return(
         <div className="flex flex-col p-4 md:py-7">
-            <p className="text-lg font-medium mb-3">Things you'll love</p>
+            <p className="text-lg font-medium mb-3">Things you&apos;ll love</p>
             <ul className="flex flex-col gap-2 text-[13px] text-black">
                 <li className="flex gap-1.5">
                     <IoMdTrain className="text-xl" />

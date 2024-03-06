@@ -333,6 +333,23 @@ select {
  
 
 .lead__list .lead__item:not(:last-child) { @apply border-b border-bc }
-
-
+ 
 .news__detail h2 { @apply text-xl md:text-2xl lg:text-3xl font-semibold text-dark mt-10 lg:mt-14 mb-3 }
+ 
+/* Galler Page Styles */
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(720px - 137px) !important;object-fit: cover !important;
+}
+.image-gallery-thumbnails { @apply bg-dark  }
+.image-gallery-thumbnails, .image-gallery { @apply rounded-bl-lg }
+.image-gallery-thumbnail .image-gallery-thumbnail-image { height: 66px;object-fit: cover; }
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg { height: 52px !important;width: 24px !important; }
+
+
+.swiper-pagination { @apply flex justify-center flex-wrap gap-1 pt-3  }
+.swiper-pagination .swiper-pagination-bullet { @apply  w-3 h-3 border border-bc rounded-full inline-flex items-center justify-center cursor-pointer  }
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active { @apply border-primary  }
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active::after { content: ''; @apply w-1 h-1 bg-primary rounded-full block  }
+
+.custom-swiper-button-next.swiper-button-disabled, 
+.custom-swiper-button-prev.swiper-button-disabled { @apply opacity-0 }

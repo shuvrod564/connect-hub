@@ -70,12 +70,13 @@ const Footer = async({}) => {
                   alt='logo'
                   width={104}
                   height={56}
+                  className="h-14 sm:h-auto w-auto"
               />
             </Link>
             <p className='text-[#40445A ] mt-5'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <div className="flex justify-center lg:justify-start mt-5"> 
+            <div className="flex mt-5"> 
             <Link href={"#"} target="_blank" className='text-primary border-2 border-primary rounded-md inline-block p-1 mr-2'><FaFacebookF className="sm:text-lg" /></Link>
             <Link href={"#"} target="_blank" className='text-primary border-2 border-primary rounded-md inline-block p-1 mr-2'><FaTwitter className="sm:text-lg" /></Link>
             <Link href={"#"} target="_blank" className='text-primary border-2 border-primary rounded-md inline-block p-1 mr-2'><FaLinkedinIn className="sm:text-lg" /></Link>
@@ -83,30 +84,30 @@ const Footer = async({}) => {
           </div>
 
           </div>
-          <div className="w-full lg:w-[40%]">
+          <div className="w-full lg:w-[40%] mt-5 lg:mt-0">
             <p className="text-[#40445A] font-bold text-base sm:text-base md:text-lg lg:text-xl">Quik Links</p>
             <div className="grid grid-cols-2">
               <div>
                 <ul className="flex flex-col gap-2">
-                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Home</Link></li>
-                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">About Us</Link></li>
-                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">All Business List</Link></li>
-                  <li><Link href={'/news'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">News</Link></li>
-                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Promote Your Business</Link></li> 
+                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Home</Link></li>
+                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base text-[#40445A] hover:text-primary hover:underline transition-all duration-150">About Us</Link></li>
+                  <li><Link href={'/listing'} className="text-[13px] sm:text-sm md:text-base text-[#40445A] hover:text-primary hover:underline transition-all duration-150">All Business List</Link></li>
+                  <li><Link href={'/news'} className="text-[13px] sm:text-sm md:text-base text-[#40445A] hover:text-primary hover:underline transition-all duration-150">News</Link></li>
+                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Promote Your Business</Link></li> 
                 </ul>
               </div>
               <div>
                 <ul className="flex flex-col gap-2">
-                  <li><Link href={'/testimonials'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Testimonials</Link></li>
-                  <li><Link href={'/contact'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Contact Us</Link></li>
-                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Help & Support</Link></li>
-                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Terms & Conditions</Link></li>
-                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base mx-2 mb-2 text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Privacy Policy</Link></li> 
+                  <li><Link href={'/testimonials'} className="text-[13px] sm:text-sm md:text-base text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Testimonials</Link></li>
+                  <li><Link href={'/contact'} className="text-[13px] sm:text-sm md:text-base text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Contact Us</Link></li>
+                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Help & Support</Link></li>
+                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Terms & Conditions</Link></li>
+                  <li><Link href={'/'} className="text-[13px] sm:text-sm md:text-base text-[#40445A] hover:text-primary hover:underline transition-all duration-150">Privacy Policy</Link></li> 
                 </ul>
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-[30%]">
+          <div className="w-full lg:w-[30%] mt-5 lg:mt-0">
             <p className="text-[#40445A] font-bold text-base sm:text-base md:text-lg lg:text-xl">Popular Locations</p>
 
             <div className="flex flex-row flex-wrap">

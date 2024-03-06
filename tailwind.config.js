@@ -28,7 +28,11 @@ module.exports = {
       transparent: "transparent",
       bc: "#CCCCCC",
     }, 
-    extend: {},
+    extend: {
+      fontSize: {
+        'xs': '12px'
+      }
+    },
   },
   plugins: [],
 };

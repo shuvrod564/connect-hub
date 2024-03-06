@@ -1,16 +1,16 @@
 'use client'
 import React from 'react'
-// import ReactStars from "react-rating-stars-component";
-// import "@/components/styles/GiveRating.css"
+import ReactStars from "react-rating-stars-component";
+import "@/components/styles/GiveRating.css"
 
 export function GiveRating(props) {
-    // const ratingChanged = (newRating) => {
-    //     console.log(newRating);
-    //   };
+    const ratingChanged = (newRating) => {
+        console.log(newRating);
+      };
 
     return (
         <> 
-            {/* <ReactStars
+            <ReactStars
                 count={5}
                 onChange={ratingChanged}
                 size={24}
@@ -20,7 +20,7 @@ export function GiveRating(props) {
                 fullIcon={<i className="fa fa-star"></i>}
                 activeColor="#1CA45C"
                 classNames={"react__rating"}
-            /> */}
+            />
             
         </>
     )

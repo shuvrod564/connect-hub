@@ -3,6 +3,7 @@ import { AmenitiesFacilities } from './AmenitiesFacilities'
 import Photos from './Photos'
 import KeyInsides from './KeyInsides' 
 import Reviews from './Reviews'
+import { AddressBox } from './AddressBox'
 
 const HotelDetails = () => {
     
@@ -50,9 +51,9 @@ const HotelDetails = () => {
                                 </div>
                                 {/* item */}
                                 
-                                <div className="p-4 md:p-5 md:pt-7 border-b border-bc"> 
+                                <div className="p-4 md:p-5 md:pt-7"> 
                                     <h2 className="text-lg md:text-xl font-bold text-dark mb-4 md:mb-5 lg:mb-6">Reviews & Ratings</h2>
-                                    {/* <Reviews /> */}
+                                    <Reviews />
                                 </div>
                                 {/* item */}
                             </div>
@@ -62,8 +63,8 @@ const HotelDetails = () => {
 
                         </div>
                         {/* col */}
-                        <div className="w-full lg:w-[300px] xl:w-[390px]">
-
+                        <div className="w-full lg:w-[300px] xl:w-[390px] mt-7 lg:mt-0">
+                            <AddressBox />
                         </div>
                         {/* col */}
                     </div>

@@ -8,6 +8,7 @@ import { IoMdTrain } from 'react-icons/io';
 import { FaPlaneDeparture } from 'react-icons/fa';
 import { IoClose, IoLocationSharp, IoWifiSharp } from 'react-icons/io5';
 import { BsGridFill } from 'react-icons/bs'; 
+import Link from 'next/link';
 
 const RightSideInfo = ()=>{
     return(
@@ -38,11 +39,10 @@ const RightSideInfo = ()=>{
 const RightSideActions = ()=>{
     return(
         <div className="flex flex-col p-4 border-t border-border-color">
-            <p className="text-[13px] sm:text-sm"> 
-                <span className="text-gray mr-3 line-through">₹ 2,100</span>
-                <span className="text-dark text-base md:text-lg lg:text-xl font-semibold">₹ 1,020</span> <br />
-                <span className="text-black pt-1 block">+ ₹199 taxes and charges</span>
-            </p> 
+            <Link href={"#"} className="bg-primary p-4 px-4 sm:px-5 py-2 rounded-lg text-white text-center hover:bg-secondary focus:bg-secondary active:bg-secondary">
+                <span className="text-base sm:text-lg font-bold block">Enquire Now</span>
+                <span className="text-sm block">get free details instantly via sms</span>
+            </Link>
              
         </div>
     )
